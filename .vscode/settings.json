@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.view": "hierarchical",
+    "java.compile.nullAnalysis.mode": "automatic"
+}

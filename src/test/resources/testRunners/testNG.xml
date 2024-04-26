@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="4" thread-count="3" parallel="test">
+
+
+
+<test name="Amazon Test">
+<parameter name="url" value="https://www.amazon.in/">
+<parameter name="browser" value="chrome">
+<Classes>
+<class name="com.qa.automation.test.Amazon_Test_1" /> 
+</classes>
+</test>   
+
+<test name="Google Test">
+<parameter name="url" value="https://www.google.com/">
+<parameter name="browser" value="firefox">
+<Classes>
+<class name="com.qa.automation.test.Google_Test_1"/>
+</classes>
+</test>   
+
+<test name="Navven Automation LaB Test" />
+<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login">
+<parameter name="browser" value="safari" />
+<Classes>
+<class name="com.qa.automation.test.NaveenAutomationCart" />
+</classes>
+</test>   
+
+</suite>
